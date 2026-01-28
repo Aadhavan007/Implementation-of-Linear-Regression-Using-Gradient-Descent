@@ -1,4 +1,4 @@
-# Implementation-of-Linear-Regression-Using-Gradient-Descent
+<img width="884" height="691" alt="image" src="https://github.com/user-attachments/assets/abdac85d-83ac-44f9-938c-e8c98779e629" /># Implementation-of-Linear-Regression-Using-Gradient-Descent
 
 ## AIM:
 To write a program to predict the profit of a city using the linear regression model with gradient descent.
@@ -29,10 +29,10 @@ import matplotlib.pyplot as plt
 
 w = 0.0
 b = 0.0
-alpha = 0.0000000001
+alpha = 0.1
 epochs = 100
 n = len(x)
-
+x = (x - np.mean(x)) / np.std(x)
 losses = []
 
 
@@ -68,11 +68,12 @@ plt.show()
 
 print("Final weight (w):", w)
 print("Final bias (b):", b)
-
 ~~~
 ## Output:
-<img width="823" height="589" alt="image" src="https://github.com/user-attachments/assets/64db6ed4-e806-468b-a1b7-2fe9c4f57c16" />
-<img width="917" height="680" alt="image" src="https://github.com/user-attachments/assets/ffe5b205-49b9-467e-813d-e7ebedb47f26" />
+<img width="878" height="572" alt="image" src="https://github.com/user-attachments/assets/a4b0b304-ed43-4f53-b425-122cd12da159" />
+<img width="944" height="678" alt="image" src="https://github.com/user-attachments/assets/2ba333fd-598c-4d62-ab91-72c4350ef7cd" />
+
+
 
 
 
