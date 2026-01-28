@@ -14,6 +14,7 @@ To write a program to predict the profit of a city using the linear regression m
 4. 
 
 ## Program:
+~~~
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -68,7 +69,7 @@ plt.show()
 print("Final weight (w):", w)
 print("Final bias (b):", b)
 
-
+~~~
 ## Output:
 <img width="823" height="589" alt="image" src="https://github.com/user-attachments/assets/64db6ed4-e806-468b-a1b7-2fe9c4f57c16" />
 <img width="917" height="680" alt="image" src="https://github.com/user-attachments/assets/ffe5b205-49b9-467e-813d-e7ebedb47f26" />
