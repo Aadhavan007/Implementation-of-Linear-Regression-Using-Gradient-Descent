@@ -1,5 +1,3 @@
-<img width="884" height="691" alt="image" src="https://github.com/user-attachments/assets/abdac85d-83ac-44f9-938c-e8c98779e629" /># Implementation-of-Linear-Regression-Using-Gradient-Descent
-
 ## AIM:
 To write a program to predict the profit of a city using the linear regression model with gradient descent.
 
